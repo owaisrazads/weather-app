@@ -1,0 +1,144 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.my{
+    padding: 8px 10px;
+    text-align: center;
+    background-color: #300466;
+    color: white;
+    margin-top: 20px;
+}
+
+#input{
+    padding: 20px;
+    
+    width: 300px;
+    border-radius: 15px;
+    margin-top: 35px;
+    margin-left: 40%;
+    background-color: rgb(255, 255, 255);
+    outline: 0;
+  
+    cursor: pointer;
+}
+button{
+    border-radius: 25%;
+    padding: 8px;
+    border: none;
+    width: 35px;
+    background-color: #300466;
+    transition: 0.2s ease;
+    cursor: pointer;
+
+}
+button i{
+    color: white;
+}
+button:hover{
+    background-color: #550dae;
+} */
+
+*{
+    font-family: sans-serif;
+}
+body{
+    background: url(https://images.unsplash.com/photo-1599148400620-8e1ff0bf28d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8NHhsfGVufDB8fDB8fHww&w=1000&q=80);
+}
+.my{
+    text-align: center;
+    padding: 10px 15px;
+    background-color: #300466;
+    color: white;
+}
+
+#input{
+    text-align: center;
+    border: 2px solid #300466;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+button{
+    padding: 15px;
+    background-color: #300466;
+    border-radius: 40px;
+    font-size: larger;
+    border: 2px solid #300466;
+    color: rgba(29, 82, 82, 0.932);
+    margin-left: 10px;
+    transition: 150ms;
+}
+button i{
+    color: white;
+}
+button:hover{
+    background-color: #550dae;
+    
+
+}
+button:active{
+    transform: scale(0.9);
+}
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+/* span{
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(35, 68, 105, 0.932);
+} */
+h4{
+    margin-top: 0px;
+}
+
+.main-div{
+    background-color: #300466;
+    text-align: center;
+    width: 500px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    /* height: 650px; */
+    /* margin-left: 36%; */
+}
+img{
+    width: 100px;
+}
+.centi{
+    font-size: 60px;
+    font-weight: 800;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.932);
+}
+.p-div{
+    display: flex;
+    justify-content: center;
+}
+.main-div{
+    display: none;
+}
+.sec-div{
+    color: #ffffff;
+}
